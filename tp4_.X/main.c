@@ -109,7 +109,7 @@ void main(void)
             data = EUSART1_Read();
         } 
         
- //       myTimer1_ISR(); //foction qui gere le temps entre deux points
+        myTimer1_ISR(); //foction qui gere le temps entre deux points
         
         if (flag == 1){           
             envoiPoint(); //foction qui envoi les points
