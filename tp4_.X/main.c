@@ -146,7 +146,6 @@ void main(void)
                     
                     nb_step = 1 / (nb_step * 60 * 0,00000001);
                     calcul = 65536 - nb_step;
-                    printf("aussi ");
                     break;
                     
                 case '-':
@@ -159,7 +158,6 @@ void main(void)
                     
                     nb_step = 1 / (nb_step * 60 * 0,00000001);
                     calcul = 65536 - nb_step;
-                    printf("aussi ");
                     break;
 
                 default :
